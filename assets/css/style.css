@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+
+.titulo{
+    position: absolute;
+    left: 1000px;
+    top: 5px;
+    bottom: 10px;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size:xx-large;
+    
+}
+.figura{
+    text-align: center;
+}
+#er {
+    width: 200px;
+    height: 255px;
+}
+#sinopse{
+    width: auto;
+    height: auto;
+}
+
+
+#char-descricao{
+    border: 2px;
+    border-color: black;
+    border-style: double;
+    margin: 10px;
+    padding: 10px;    
+}
+#char-pic{
+    float:left;
+    width: 120px;
+    height: 150px;
+    right: 30px;
+    position: relative;  
+     
+}
+#trilha-logo{
+    height: 180px;
+    width: 180px;
+}
+.logohtml{
+    text-align: center;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    text-align: center;
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    line-height: 40px;
+    padding-top: 15px;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    padding: 5px;
+}
+nav{
+    padding-inline: 15 px;
+    line-height: 25px;
+}
+
+
